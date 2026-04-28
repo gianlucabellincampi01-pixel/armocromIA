@@ -201,7 +201,7 @@ function Step3({ next }) {
 
   return (
     <div className="fade-in" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "100%", padding: "48px 32px", background: DARK, textAlign: "center" }}>
-      <h2 className="pf" style={{ fontSize: "26px", color: WHITE, fontWeight: 400, marginBottom: 8 }}>Analyzing Your Tones</h2>
+      <h2 className="pf" style={{ fontSize: "26px", color: TEXT, fontWeight: 400, marginBottom: 8 }}>Analyzing Your Tones</h2>
       <p style={{ fontSize: "12px", color: "#888", marginBottom: 32 }}>Calibrating to your unique features...</p>
       <div style={{ position: "relative", width: 160, height: 160, marginBottom: 28 }}>
         <svg width="160" height="160" style={{ position: "absolute", top: 0, left: 0 }} viewBox="0 0 160 160">
@@ -250,7 +250,7 @@ function Step4({ next }) {
     <div className="fade-up" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "100%", padding: "48px 32px", textAlign: "center" }}>
       <p style={{ fontSize: "11px", letterSpacing: "3px", color: TAUPE, marginBottom: 8 }}>YOUR COLOR SEASON</p>
       <div style={{ background: WHITE, border: `1.5px solid ${GOLD}`, borderRadius: "2px", padding: "36px 32px", maxWidth: 340, width: "100%", marginBottom: 28 }}>
-        <h1 className="pf" style={{ fontSize: "40px", fontWeight: 400, color: TEXT, marginBottom: 8 }}>{s.name.toUpperCase()}</h1>
+        <h1 className="pf" style={{ fontSize: "32px", fontWeight: 400, color: TEXT, marginBottom: 8 }}>{s.name.toUpperCase()}</h1>
         <p style={{ fontSize: "14px", color: TAUPE, marginBottom: 28, fontStyle: "italic" }}>{s.descriptor}</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 10, marginBottom: 16 }}>
           {s.palette12.map((c, i) => (
@@ -445,7 +445,7 @@ function Step8({ next }) {
           </div>
         </div>
         <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 32 }}>
-          <span style={{ background: GOLD, color: WHITE, fontSize: "10px", padding: "4px 12px", letterSpacing: "1.5px" }}>AUTUMN SOFT</span>
+          <span style={{ background: GOLD, color: WHITE, fontSize: "7px", padding: "4px 12px", letterSpacing: "1.5px" }}>AUTUMN SOFT</span>
           <span style={{ fontSize: "11px", color: TAUPE }}>Analyzed today</span>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 6, marginBottom: 20 }}>
